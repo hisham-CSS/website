@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import Navigation from './components/Navigation.js';
+import Footer from './components/Footer.js';
+import MainPage from './components/MainPage.js';
+import RocketRecover from './components/RocketRecover.js';
+import QuickLinks from './components/QuickLinks.js';
+import Shifter from './components/Shifter.js';
+import Image from 'react-bootstrap/Image';
+import About from './components/About.js';
+import logo from './images/CSSLogo.png';
+import Main from './components/Main';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation /> 
+        <div className="mainArea">
+          <Main />
+          <Footer />
+        </div>
     </div>
   );
 }

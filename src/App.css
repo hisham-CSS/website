@@ -1,38 +1,96 @@
+body{
+  background: #F0F2F0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainArea
+{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+}
+
+/* .Content
+{
+  display: inline-block;
+  background-color: gray;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  padding: auto;
+} */
+
+.Content p
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25vmin;
+  padding-right: 25vmin;
+  font-size: larger;
+}
+
+.mainImage
+{
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.mainImage:hover
+{
+  border-color: whitesmoke;
+  cursor: pointer;
+  border-width: 10px;
+  border-style: solid;
+  transition: .3s ease-in;
+}
+
+.navitem:hover
+{
+  background-color: #0a8fb8;
+  transition: .1s ease-in;
+}
+
+.RRPage
+{
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
   color: white;
+  margin: auto;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.FootOfPage
+{
+  display: inline-flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AboutUs
+{
+  display: inline-flex;
+  flex-direction: column;
+  background-color: grey;
+  color: black;
+  position: relative;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
 }
