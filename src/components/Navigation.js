@@ -9,7 +9,7 @@ function Navigation()
     return(
     
     <Navbar bg="light">
-        <Navbar.Brand href="/">
+        <Navbar.Brand href={process.env.PUBLIC_URL + '/'}>
             <img src={CSSLogoNav}
             width="30"
             className="d-inline-block align-center"
@@ -17,10 +17,10 @@ function Navigation()
         </Navbar.Brand>
         <Navbar.Collapse className="justify-content-end">
         <Nav>
-            <Nav.Link href="/#/RocketRecover/" className="navitem">Rocket Recover</Nav.Link>
-            <Nav.Link href="/#/QuickLinks/" className="navitem">Quick Links</Nav.Link>
-            <Nav.Link href="/#/Shifter/" className="navitem">Codename: Shifter</Nav.Link>
-            <Nav.Link href="/#/About/" className="navitem">About</Nav.Link>
+            <Nav.Link href={process.env.PUBLIC_URL + '/#/RocketRecover/'} className="navitem">Rocket Recover</Nav.Link>
+            <Nav.Link href={process.env.PUBLIC_URL + '/#/QuickLinks/'} className="navitem">Quick Links</Nav.Link>
+            <Nav.Link href={process.env.PUBLIC_URL + '/#/Shifter/'} className="navitem">Codename: Shifter</Nav.Link>
+            <Nav.Link href={process.env.PUBLIC_URL + '/#/About/'} className="navitem">About</Nav.Link>
         </Nav>
         </Navbar.Collapse>
     </Navbar>

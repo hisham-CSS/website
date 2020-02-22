@@ -9,11 +9,11 @@ import { Switch, Route } from 'react-router-dom';
 const Main = () =>
 (
     <Switch>
-        <Route exact path="/" component={MainPage} />
-        <Route path="/About" component={About} />
-        <Route path="/QuickLinks" component={QuickLinks} />
-        <Route path="/RocketRecover" component={RocketRecover} />
-        <Route path="/Shifter" component={Shifter} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={MainPage} />
+        <Route path={process.env.PUBLIC_URL + '/About'} component={About} />
+        <Route path={process.env.PUBLIC_URL + '/QuickLinks'} component={QuickLinks} />
+        <Route path={process.env.PUBLIC_URL + '/RocketRecover'} component={RocketRecover} />
+        <Route path={process.env.PUBLIC_URL  + '/Shifter'} component={Shifter} />
     </Switch>
 )
 
