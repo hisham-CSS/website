@@ -3,10 +3,39 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import logo from '../images/CSSLogo.png';
+import Sample from '../images/sample.svg';
 import Container from 'react-bootstrap/Container';
 
 function MainPage()
 {
+
+    const imgAboutStyle =
+    {
+        borderRadius: "20%",
+        height: "100px",
+        margin: "10px"
+    };
+
+    const descrptionStyle =
+    {
+        margin: "10px", 
+        opacity: "50%"
+    };
+
+    const topContainer =
+    {
+        display: "inline-flex",
+        flexDirection: "column",
+        backgroundColor: "black",
+        color: "white",
+        position: "relative",
+        margin: "auto",
+        width: "100%",
+        alignItems: "center",
+        margin: "auto",
+        padding: "10px"
+    };
+
     const contentStyle =
     {
         display: "inline-block",
@@ -33,7 +62,52 @@ function MainPage()
         <img className="mainImage" src={logo} width="150" />
         <img className="mainImage" src={logo} width="150" />
     </Row>
+    
+    
+
+    <div className="AboutUs">
+    <hr style={{borderTop: '3px solid black', width: '80%'}} />
+    <h1 style={{fontWeight: "bold", marginBottom: "5px"}}>Meet The Team!</h1>
+    <hr style={{borderTop: '3px solid black', width: '80%'}} />
+    <Row>
+        <Col xs={12} lg={true}>
+            <img style={imgAboutStyle} src={Sample} alt="Hisham" />   
+            <div style={descrptionStyle}>
+            <h4>Hisham Ata</h4>
+            <hr style={{borderTop: '3px solid blue', width: '50%'}} />
+            <h6>Founder - Business Operations Manager</h6>
+            <p style={{fontSize: "15px", paddingLeft: '150px', paddingRight: '150px', paddingTop: '20px'}}>Hisham Ata founded Cat Splat Studios in 2015. 
+            His background in programming, IT and project management he manages the business operations of Cat Splat Studios.</p>
+            </div>  
+        </Col>
+
+        <Col xs={12} lg={true}>
+            <img style={imgAboutStyle} src={Sample} alt="Hisham" />
+            <div style={descrptionStyle}>
+            <h4>Kyle Skidmore</h4>
+            <hr style={{borderTop: '3px solid blue', width: '50%'}} />
+            <h6>Project Manager - Game Designer</h6>
+            <p style={{fontSize: "15px", paddingLeft: '150px', paddingRight: '150px', paddingTop: '20px'}}>Kyle Skidmore is the project manager and part of the design team. He combines his business and game design experience to bring a unique 
+            perspective to our design team.</p>
+            </div>
+        </Col>
+
+        <Col xs={12} lg={true}>
+            <img style={imgAboutStyle} src={Sample} alt="Hisham" />
+            <div style={descrptionStyle}>
+            <h4>Matthew Douglas</h4>
+            <hr style={{borderTop: '3px solid blue', width: '50%'}} />
+            <h6>Technical Director</h6>
+            <p style={{fontSize: "15px", paddingLeft: '150px', paddingRight: '150px', paddingTop: '20px'}}>Matthew Douglas is a software developer who excels in game applications. His drive to bring the best experience to the user has given him skills 
+            developing many gameplay mechanics.</p>
+            </div>
+        </Col>
+    </Row>
+    </div>
+
+
     </section>
+
     );
 
 }

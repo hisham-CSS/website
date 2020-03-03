@@ -54,7 +54,7 @@ function About()
             <h4>Hisham Ata</h4>
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Founder - Business Operations Manager</h6>
-            <p style={{fontSize: "15px"}}>Hisham Ata founded Cat Splat Studios in 2015. 
+            <p style={{fontSize: "15px", paddingLeft: '150px', paddingRight: '150px', paddingTop: '20px'}}>Hisham Ata founded Cat Splat Studios in 2015. 
             His background in programming, IT and project management he manages the business operations of Cat Splat Studios.</p>
             </div>  
         </Col>
@@ -65,7 +65,7 @@ function About()
             <h4>Kyle Skidmore</h4>
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Project Manager - Game Designer</h6>
-            <p style={{fontSize: "15px"}}>Kyle Skidmore is the project manager and part of the design team. He combines his business and game design experience to bring a unique 
+            <p style={{fontSize: "15px", paddingLeft: '150px', paddingRight: '150px', paddingTop: '20px'}}>Kyle Skidmore is the project manager and part of the design team. He combines his business and game design experience to bring a unique 
             perspective to our design team.</p>
             </div>
         </Col>
@@ -76,7 +76,7 @@ function About()
             <h4>Matthew Douglas</h4>
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Technical Director</h6>
-            <p style={{fontSize: "15px"}}>Matthew Douglas is a software developer who excels in game applications. His drive to bring the best experience to the user has given him skills 
+            <p style={{fontSize: "15px", paddingLeft: '150px', paddingRight: '150px', paddingTop: '20px'}}>Matthew Douglas is a software developer who excels in game applications. His drive to bring the best experience to the user has given him skills 
             developing many gameplay mechanics.</p>
             </div>
         </Col>
