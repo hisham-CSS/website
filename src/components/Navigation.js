@@ -10,12 +10,14 @@ function Navigation()
     return(
     
     <Navbar bg="light">
+        <Link to="/">
         <Navbar.Brand href="/">
             <img src={CSSLogoNav}
             width="30"
             className="d-inline-block align-center"
             alt="Cat Splat Studios Nav Logo" />{' '}Cat Splat Studios
         </Navbar.Brand>
+        </Link>
         <Navbar.Collapse className="justify-content-end">
         <Nav>
             <Nav.Link>
