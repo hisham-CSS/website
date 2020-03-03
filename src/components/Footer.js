@@ -27,10 +27,10 @@ function Footer()
             </Col>
             
             <Col style={myStyle}>
-                <a href="" target="_blank">
+                <a href="" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
                 <p style={{paddingRight: '30px'}}>Terms</p>
                 </a>
-                <a href="" target="_blank">
+                <a href="" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
                 <p style={{paddingRight: '30px'}}>Privacy</p>
                 </a>
                 <SocialIcon className="socialIcon" url="http://www.twitter.com/catsplatstudios"  style={myStyle}/>

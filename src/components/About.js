@@ -39,8 +39,9 @@ function About()
     <div style={topContainer}>
         <h1 style={{fontWeight: "bold"}}>About Us</h1>
         <hr style={{borderTop: '3px solid red', width: '50%'}} />
+        <Col xs={12} lg={6} style={{backgroundColor: 'gainsboro'}}>
         <p style={{margin: '50px', padding: '5px'}}>Cat Splat Studios Inc. was founded by Hisham Ata in 2015 while he was getting his game development degree at the Toronto Film School. There he met Kyle Skidmore and Matthew Douglas and continued working on various independent projects. In 2019 - Kyle and Matthew became part of the offical ownership and now all three of them are working to put out a wide variety of games in differing genre's.</p>
-        
+        </Col>
     </div>
     
     <div className="AboutUs">

@@ -2,6 +2,7 @@ import React from 'react';
 import CSSLogoNav from'../images/CSSLogoNav.png'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 
 function Navigation()
@@ -17,10 +18,22 @@ function Navigation()
         </Navbar.Brand>
         <Navbar.Collapse className="justify-content-end">
         <Nav>
-            <Nav.Link href="/#/RocketRecover/" className="navitem">Rocket Recover</Nav.Link>
-            <Nav.Link href="/#/QuickLinks/" className="navitem">Quick Links</Nav.Link>
-            <Nav.Link href="/#/Shifter/" className="navitem">Codename: Shifter</Nav.Link>
-            <Nav.Link href="/#/About/" className="navitem">About</Nav.Link>
+            <Nav.Link>
+            <Link to="/RocketRecover" className="navitem">Rocket Recover</Link>
+            </Nav.Link>
+
+            <Nav.Link>
+            <Link to="/QuickLinks" className="navitem">Quick Links</Link>
+            </Nav.Link>
+            
+            <Nav.Link>
+            <Link to="/Shifter" className="navitem">Codename: Shifter</Link>
+            </Nav.Link>
+            
+            <Nav.Link>
+            <Link to="/About" className="navitem">About</Link>
+            </Nav.Link>
+
         </Nav>
         </Navbar.Collapse>
     </Navbar>

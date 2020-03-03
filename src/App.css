@@ -85,7 +85,7 @@ body{
 {
   display: inline-flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: gainsboro;
   color: black;
   position: relative;
   margin: auto;

@@ -10,7 +10,7 @@ function MainPage()
     const contentStyle =
     {
         display: "inline-block",
-        backgroundColor: "gray",
+        backgroundColor: "gainsboro",
         flexDirection: "column",
         position: "relative",
         margin: "auto",
