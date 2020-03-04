@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import logo from '../images/CSSLogo.png';
 import Sample from '../images/sample.svg';
+import Zoom from 'react-reveal/Zoom';
 import Container from 'react-bootstrap/Container';
 
 function MainPage()
@@ -61,15 +62,21 @@ function MainPage()
 
     return(
     <section className="Content" style={contentStyle}>
+    <Zoom>
     {display}
+    </Zoom>
+
     <Row className="justify-content-md-center">
         <img className="mainImage" src={logo} width="150" 
         onMouseOver={() => setDisplay(
+            <Zoom>
             <React.Fragment>
             <Image rounded src={logo} width="400"/>
             <p>Rocket Recover now out on Google Play!</p>
-            </React.Fragment>)}
+            </React.Fragment>
+            </Zoom>)}
         onMouseOut={() => setDisplay(
+            <Zoom>
             <React.Fragment>
             <Image rounded src={logo} width="400"/>
             <p>Cat Splat Studios is an aspiring team of developers who are looking 
@@ -78,16 +85,20 @@ function MainPage()
             a small footprint in terms of overhead costs. Our vision is not to 
             re-invent the wheel, but to find different and interesting ways to celebrate
             the familiar tropes that we enjoy.</p>
-            </React.Fragment>)}
+            </React.Fragment>
+            </Zoom>)}
         />
 
         <img className="mainImage" src={logo} width="150" 
         onMouseOver={() => setDisplay(
+            <Zoom>
             <React.Fragment>
             <Image rounded src={logo} width="400"/>
             <p>Quick Links Coming Soon</p>
-            </React.Fragment>)}
+            </React.Fragment>
+            </Zoom>)}
         onMouseOut={() => setDisplay(
+            <Zoom>
             <React.Fragment>
             <Image rounded src={logo} width="400"/>
             <p>Cat Splat Studios is an aspiring team of developers who are looking 
@@ -96,16 +107,20 @@ function MainPage()
             a small footprint in terms of overhead costs. Our vision is not to 
             re-invent the wheel, but to find different and interesting ways to celebrate
             the familiar tropes that we enjoy.</p>
-            </React.Fragment>)}
+            </React.Fragment>
+            </Zoom>)}
         />
 
         <img className="mainImage" src={logo} width="150" 
         onMouseOver={() => setDisplay(
+            <Zoom>
             <React.Fragment>
             <Image rounded src={logo} width="400"/>
             <p>Codename: Shifter - Pre-Alpha</p>
-            </React.Fragment>)}
+            </React.Fragment>
+            </Zoom>)}
         onMouseOut={() => setDisplay(
+            <Zoom>
             <React.Fragment>
             <Image rounded src={logo} width="400"/>
             <p>Cat Splat Studios is an aspiring team of developers who are looking 
@@ -114,7 +129,8 @@ function MainPage()
             a small footprint in terms of overhead costs. Our vision is not to 
             re-invent the wheel, but to find different and interesting ways to celebrate
             the familiar tropes that we enjoy.</p>
-            </React.Fragment>)}
+            </React.Fragment>
+            </Zoom>)}
         />
     </Row>
     
