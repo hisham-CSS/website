@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image';
 import logo from '../images/CSSLogo.png';
 import Sample from '../images/sample.svg';
 import Zoom from 'react-reveal/Zoom';
+import shortid from 'short-id';
 import Container from 'react-bootstrap/Container';
 
 function MainPage()
@@ -47,90 +48,75 @@ function MainPage()
         padding: "auto"
     }
 
-    const [display, setDisplay] = useState(
-    <React.Fragment>
-    <Image rounded src={logo} width="400"/>
-    <p>Cat Splat Studios is an aspiring team of developers who are looking 
-    to break into the Video Game Industry. Our main focus will be to 
-    deliver great gameplay experiences for all platforms, while maintaining 
-    a small footprint in terms of overhead costs. Our vision is not to 
-    re-invent the wheel, but to find different and interesting ways to celebrate
-    the familiar tropes that we enjoy.</p>
-    </React.Fragment>);
+    const [display, setDisplay] = useState(0);
+
+    function curDisplay()
+    {
+        switch (display)
+        {
+            case 0:
+                return(
+                    <Zoom>
+                        <React.Fragment key={shortid.generate()}>
+                        <Image rounded src={logo} width="400"/>
+                        <p>Cat Splat Studios is an aspiring team of developers who are looking 
+                        to break into the Video Game Industry. Our main focus will be to 
+                        deliver great gameplay experiences for all platforms, while maintaining 
+                        a small footprint in terms of overhead costs. Our vision is not to 
+                        re-invent the wheel, but to find different and interesting ways to celebrate
+                        the familiar tropes that we enjoy.</p>
+                        </React.Fragment>
+                    </Zoom>)
+            case 1:
+                return(
+                    <Zoom>
+                        <React.Fragment key={shortid.generate()}>
+                        <Image rounded src={logo} width="400"/>
+                        <p>Rocket Recover now out on Google Play!</p>
+                        </React.Fragment>
+                    </Zoom>)
+            case 2:
+                return(
+                    <Zoom>
+                        <React.Fragment key={shortid.generate()}>
+                        <Image rounded src={logo} width="400"/>
+                        <p>Quick Links Coming Soon</p>
+                        </React.Fragment>
+                    </Zoom>)
+            case 3:
+                return(
+                    <Zoom>
+                        <React.Fragment key={shortid.generate()}>
+                        <Image rounded src={logo} width="400"/>
+                        <p>Codename: Shifter - Pre-Alpha</p>
+                        </React.Fragment>
+                    </Zoom>)
+        }
+    }
 
 
 
     return(
     <section className="Content" style={contentStyle}>
-    <Zoom>
-    {display}
-    </Zoom>
+    
+    <div key={shortid.generate()}>
+    {curDisplay()}
+    </div>
 
     <Row className="justify-content-md-center">
         <img className="mainImage" src={logo} width="150" 
-        onMouseOver={() => setDisplay(
-            <Zoom>
-            <React.Fragment>
-            <Image rounded src={logo} width="400"/>
-            <p>Rocket Recover now out on Google Play!</p>
-            </React.Fragment>
-            </Zoom>)}
-        onMouseOut={() => setDisplay(
-            <Zoom>
-            <React.Fragment>
-            <Image rounded src={logo} width="400"/>
-            <p>Cat Splat Studios is an aspiring team of developers who are looking 
-            to break into the Video Game Industry. Our main focus will be to 
-            deliver great gameplay experiences for all platforms, while maintaining 
-            a small footprint in terms of overhead costs. Our vision is not to 
-            re-invent the wheel, but to find different and interesting ways to celebrate
-            the familiar tropes that we enjoy.</p>
-            </React.Fragment>
-            </Zoom>)}
+        onMouseOver={() => setDisplay(1)}
+        onMouseOut={() => setDisplay(0)}
         />
 
         <img className="mainImage" src={logo} width="150" 
-        onMouseOver={() => setDisplay(
-            <Zoom>
-            <React.Fragment>
-            <Image rounded src={logo} width="400"/>
-            <p>Quick Links Coming Soon</p>
-            </React.Fragment>
-            </Zoom>)}
-        onMouseOut={() => setDisplay(
-            <Zoom>
-            <React.Fragment>
-            <Image rounded src={logo} width="400"/>
-            <p>Cat Splat Studios is an aspiring team of developers who are looking 
-            to break into the Video Game Industry. Our main focus will be to 
-            deliver great gameplay experiences for all platforms, while maintaining 
-            a small footprint in terms of overhead costs. Our vision is not to 
-            re-invent the wheel, but to find different and interesting ways to celebrate
-            the familiar tropes that we enjoy.</p>
-            </React.Fragment>
-            </Zoom>)}
+        onMouseOver={() => setDisplay(2)}
+        onMouseOut={() => setDisplay(0)}
         />
 
         <img className="mainImage" src={logo} width="150" 
-        onMouseOver={() => setDisplay(
-            <Zoom>
-            <React.Fragment>
-            <Image rounded src={logo} width="400"/>
-            <p>Codename: Shifter - Pre-Alpha</p>
-            </React.Fragment>
-            </Zoom>)}
-        onMouseOut={() => setDisplay(
-            <Zoom>
-            <React.Fragment>
-            <Image rounded src={logo} width="400"/>
-            <p>Cat Splat Studios is an aspiring team of developers who are looking 
-            to break into the Video Game Industry. Our main focus will be to 
-            deliver great gameplay experiences for all platforms, while maintaining 
-            a small footprint in terms of overhead costs. Our vision is not to 
-            re-invent the wheel, but to find different and interesting ways to celebrate
-            the familiar tropes that we enjoy.</p>
-            </React.Fragment>
-            </Zoom>)}
+        onMouseOver={() => setDisplay(3)}
+        onMouseOut={() => setDisplay(0)}
         />
     </Row>
     
