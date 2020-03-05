@@ -20,7 +20,6 @@ function MainPage()
 
     const descrptionStyle =
     {
-        margin: "10px", 
         opacity: "50%"
     };
 
@@ -125,37 +124,36 @@ function MainPage()
     <hr style={{borderTop: '3px solid black', width: '80%'}} />
     <h1 style={{fontWeight: "bold", marginBottom: "5px"}}>Meet The Team!</h1>
     <hr style={{borderTop: '3px solid black', width: '80%'}} />
-    <Row>
-        <Col xs={12} lg={true}>
+    <Row style={{width: '80%'}}>
+        <Col xs={12} lg={4}>
             <img style={imgAboutStyle} src={Sample} alt="Hisham" />   
             <div style={descrptionStyle}>
             <h4>Hisham Ata</h4>
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Founder - Business Operations Manager</h6>
-            <p style={{fontSize: "15px", paddingLeft: '100px', paddingRight: '100px', paddingTop: '20px'}}>Hisham Ata founded Cat Splat Studios in 2015. 
-            His background in programming, IT and project management he manages the business operations of Cat Splat Studios.</p>
+            Hisham Ata founded Cat Splat Studios in 2015. His background in programming, IT and project management he manages the business operations of Cat Splat Studios.
             </div>  
         </Col>
 
-        <Col xs={12} lg={true}>
+        <Col xs={12} lg={4}>
             <img style={imgAboutStyle} src={Sample} alt="Hisham" />
             <div style={descrptionStyle}>
             <h4>Kyle Skidmore</h4>
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Project Manager - Game Designer</h6>
-            <p style={{fontSize: "15px", paddingLeft: '100px', paddingRight: '100px', paddingTop: '20px'}}>Kyle Skidmore is the project manager and part of the design team. He combines his business and game design experience to bring a unique 
-            perspective to our design team.</p>
+            Kyle Skidmore is the project manager and part of the design team. He combines his business and game design experience to bring a unique 
+            perspective to our design team.
             </div>
         </Col>
 
-        <Col xs={12} lg={true}>
+        <Col xs={12} lg={4}>
             <img style={imgAboutStyle} src={Sample} alt="Hisham" />
             <div style={descrptionStyle}>
             <h4>Matthew Douglas</h4>
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Technical Director</h6>
-            <p style={{fontSize: "15px", paddingLeft: '100px', paddingRight: '100px', paddingTop: '20px'}}>Matthew Douglas is a software developer who excels in game applications. His drive to bring the best experience to the user has given him skills 
-            developing many gameplay mechanics.</p>
+            Matthew Douglas is a software developer who excels in game applications. His drive to bring the best experience to the user has given him skills 
+            developing many gameplay mechanics.
             </div>
         </Col>
     </Row>

@@ -15,7 +15,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Navigation /> 
         <div className="mainArea" style={{height: '100%'}}>
           <Main />
           <Footer />
