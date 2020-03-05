@@ -98,7 +98,7 @@ function MainPage()
     return(
     <section className="Content" style={contentStyle}>
     
-    <div key={shortid.generate()}>
+    <div key={shortid.generate()} style={{height: '500px'}}>
     {curDisplay()}
     </div>
 
