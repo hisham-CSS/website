@@ -79,10 +79,11 @@ function MainPage()
                 return(
                     <Zoom>
                         <React.Fragment>
-                        <Image rounded src={RRLogo} width="400"/>
+                        <Image style={{paddingTop: '40px'}} src={RRLogo} width="400"/>
                         <p>Rocket Recover - Out Now On Google Play!</p>
                         <p>An endless advoidance runner. You can play and customise your experience!</p>
                         <p>Choose from a varity of ships, backgrounds, obstcles and even custom music!</p>
+                        <p>Click to be taken to the Google Play download page!</p>
                         </React.Fragment>
                     </Zoom>)
             case 2:
@@ -115,10 +116,12 @@ function MainPage()
     </div>
 
     <Row className="justify-content-md-center">
-        <img className="mainImage" src={RRLogo} width="150" 
+        <a href="https://play.google.com/store/apps/details?id=com.CatSplatStudios.RocketRecover" target="_blank">
+        <img className="mainImage" src={RRLogo} width="150" height="150"
         onMouseOver={() => setDisplay(1)}
         onMouseOut={() => setDisplay(0)}
         />
+        </a>
 
         <img className="mainImage" src={logo} width="150" 
         onMouseOver={() => setDisplay(2)}

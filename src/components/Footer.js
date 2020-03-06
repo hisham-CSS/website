@@ -27,10 +27,10 @@ function Footer()
             </Col>
             
             <Col style={myStyle}>
-                <a href="" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
+                <a href="https://drive.google.com/drive/folders/1OHfDNc0OVYBOGCAhdl6607Skq8htgnxs?usp=sharing" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
                 <p style={{paddingRight: '30px'}}>Terms</p>
                 </a>
-                <a href="" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
+                <a href="https://docs.google.com/document/d/1OAXsbEkM9idgKMaEl5uLz13LieiYTW5kWkQaGoDRqe8/edit?usp=sharing" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
                 <p style={{paddingRight: '30px'}}>Privacy</p>
                 </a>
                 <SocialIcon className="socialIcon" url="http://www.twitter.com/catsplatstudios"  style={myStyle}/>
