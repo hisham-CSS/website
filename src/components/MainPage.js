@@ -4,9 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import logo from '../images/CSSLogo.png';
 import Sample from '../images/sample.svg';
+import RRLogo from '../images/RRLogo.png';
 import Zoom from 'react-reveal/Zoom';
 import shortid from 'short-id';
-import Container from 'react-bootstrap/Container';
+
 
 function MainPage()
 {
@@ -56,7 +57,7 @@ function MainPage()
             case 0:
                 return(
                     <Zoom>
-                        <React.Fragment key={shortid.generate()}>
+                        <React.Fragment>
                         <Image rounded src={logo} width="400"/>
                         <p>Cat Splat Studios is an aspiring team of developers who are looking 
                         to break into the Video Game Industry. Our main focus will be to 
@@ -69,15 +70,15 @@ function MainPage()
             case 1:
                 return(
                     <Zoom>
-                        <React.Fragment key={shortid.generate()}>
-                        <Image rounded src={logo} width="400"/>
+                        <React.Fragment>
+                        <Image rounded src={RRLogo} width="400"/>
                         <p>Rocket Recover now out on Google Play!</p>
                         </React.Fragment>
                     </Zoom>)
             case 2:
                 return(
                     <Zoom>
-                        <React.Fragment key={shortid.generate()}>
+                        <React.Fragment>
                         <Image rounded src={logo} width="400"/>
                         <p>Quick Links Coming Soon</p>
                         </React.Fragment>
@@ -85,7 +86,7 @@ function MainPage()
             case 3:
                 return(
                     <Zoom>
-                        <React.Fragment key={shortid.generate()}>
+                        <React.Fragment>
                         <Image rounded src={logo} width="400"/>
                         <p>Codename: Shifter - Pre-Alpha</p>
                         </React.Fragment>
@@ -98,12 +99,13 @@ function MainPage()
     return(
     <section className="Content" style={contentStyle}>
     
+
     <div key={shortid.generate()} style={{height: '500px'}}>
     {curDisplay()}
     </div>
 
     <Row className="justify-content-md-center">
-        <img className="mainImage" src={logo} width="150" 
+        <img className="mainImage" src={RRLogo} width="150" 
         onMouseOver={() => setDisplay(1)}
         onMouseOut={() => setDisplay(0)}
         />
