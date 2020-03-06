@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App" style={{width: '100%'}}>
         <div className="mainArea" style={{height: '100%'}}>
-          <Main />
+          <MainPage />
           <Footer />
         </div>
     </div>
