@@ -7,6 +7,7 @@ import Sample from '../images/sample.svg';
 import RRLogo from '../images/RRLogo.png';
 import Zoom from 'react-reveal/Zoom';
 import shortid from 'short-id';
+import { SocialIcon } from 'react-social-icons';
 
 
 function MainPage()
@@ -21,7 +22,8 @@ function MainPage()
 
     const descrptionStyle =
     {
-        opacity: "50%"
+        opacity: "50%",
+        backgroundColor: "white"
     };
 
     const topContainer =
@@ -48,6 +50,12 @@ function MainPage()
         padding: "auto"
     }
 
+    const socialIconStyle =
+    {
+        height: "30px",
+        width: "30px"
+    }
+
     const [display, setDisplay] = useState(0);
 
     function curDisplay()
@@ -72,7 +80,9 @@ function MainPage()
                     <Zoom>
                         <React.Fragment>
                         <Image rounded src={RRLogo} width="400"/>
-                        <p>Rocket Recover now out on Google Play!</p>
+                        <p>Rocket Recover - Out Now On Google Play!</p>
+                        <p>An endless advoidance runner. You can play and customise your experience!</p>
+                        <p>Choose from a varity of ships, backgrounds, obstcles and even custom music!</p>
                         </React.Fragment>
                     </Zoom>)
             case 2:
@@ -134,7 +144,13 @@ function MainPage()
             <hr style={{borderTop: '3px solid blue', width: '50%'}} />
             <h6>Founder - Business Operations Manager</h6>
             Hisham Ata founded Cat Splat Studios in 2015. His background in programming, IT and project management he manages the business operations of Cat Splat Studios.
-            </div>  
+            
+            <div style={{marginTop: '10px', marginLeft: '60px', marginRight: '60px', display: 'flex', justifyContent: 'space-between', alignItems: 'space-between'}}>
+                <SocialIcon url="http://www.twitter.com/anagramMC" style={socialIconStyle}/>
+                <SocialIcon url="http://www.instagram.com/anagrammc_music" style={socialIconStyle}/>
+                <SocialIcon url="https://www.linkedin.com/in/hishamata/" style={socialIconStyle}/>
+            </div>
+            </div>
         </Col>
 
         <Col xs={12} lg={4}>
@@ -145,6 +161,10 @@ function MainPage()
             <h6>Project Manager - Game Designer</h6>
             Kyle Skidmore is the project manager and part of the design team. He combines his business and game design experience to bring a unique 
             perspective to our design team.
+            
+            <div style={{marginTop: '10px', marginLeft: '60px', marginRight: '60px'}}>
+                <SocialIcon url="https://www.linkedin.com/in/kyleskidmore03/" style={socialIconStyle}/>
+            </div>
             </div>
         </Col>
 
@@ -156,6 +176,12 @@ function MainPage()
             <h6>Technical Director</h6>
             Matthew Douglas is a software developer who excels in game applications. His drive to bring the best experience to the user has given him skills 
             developing many gameplay mechanics.
+            
+            <div style={{marginTop: '10px', marginLeft: '60px', marginRight: '60px', display: 'flex', justifyContent: 'space-between', alignItems: 'space-between'}}>
+                <SocialIcon url="https://twitter.com/Matt_W_Douglas" style={socialIconStyle}/>
+                <SocialIcon url="https://www.instagram.com/matthew_w_douglas/" style={socialIconStyle}/>
+                <SocialIcon url="https://www.linkedin.com/in/matthewwalterdouglas/" style={socialIconStyle}/>
+            </div>
             </div>
         </Col>
     </Row>
