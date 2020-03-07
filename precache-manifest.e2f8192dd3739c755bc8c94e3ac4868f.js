@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10e5cd9bff729f4922dc6013706a0dfb",
+    "revision": "703cf91d6296ab03bf93ce7243e685d5",
     "url": "/index.html"
   },
   {
-    "revision": "d93fe0817f28e5d6651d",
+    "revision": "468f4d31937aadc2f791",
     "url": "/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "3323140d9beeb9efa5b8",
-    "url": "/static/css/main.f202d777.chunk.css"
+    "revision": "13dc43522db6b78ba48f",
+    "url": "/static/css/main.dee7dcf4.chunk.css"
   },
   {
-    "revision": "d93fe0817f28e5d6651d",
-    "url": "/static/js/2.c54e4b13.chunk.js"
+    "revision": "468f4d31937aadc2f791",
+    "url": "/static/js/2.6ed3b2b2.chunk.js"
   },
   {
     "revision": "7a4f436bd363eefeef3b834db0b2feca",
-    "url": "/static/js/2.c54e4b13.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6ed3b2b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3323140d9beeb9efa5b8",
-    "url": "/static/js/main.256ad2f1.chunk.js"
+    "revision": "13dc43522db6b78ba48f",
+    "url": "/static/js/main.273e5073.chunk.js"
   },
   {
     "revision": "9ae11f2f186a772d4516",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e5423a7d0cc4f18538408314866493e7",
     "url": "/static/media/RRLogo.e5423a7d.png"
+  },
+  {
+    "revision": "db9b21a1c41f3dcd9731e1e7acfdbb57",
+    "url": "/static/media/google-play-badge.db9b21a1.png"
   },
   {
     "revision": "54b30c79a0ca22502f6f7890ec57d512",
