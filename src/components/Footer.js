@@ -13,31 +13,25 @@ function Footer()
         alignItems: 'flex-end'
     }
     const myStyle = {
-        display: 'flex',
-        marginRight: '10px',
-        justifyContent: 'flex-end',
-        alignItems: 'flex-end'
     }
 
     return(
-    <div className="FootOfPage">
         <Row>
-            <Col style={col1Style}>
+            <Col>
             <p>© 2014-2020 Cat Splat Studios Inc</p>
             </Col>
             
-            <Col style={myStyle}>
+            <Col>
                 <a href="https://drive.google.com/drive/folders/1OHfDNc0OVYBOGCAhdl6607Skq8htgnxs?usp=sharing" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
-                <p style={{paddingRight: '30px'}}>Terms</p>
+                <p>Terms</p>
                 </a>
                 <a href="https://docs.google.com/document/d/1OAXsbEkM9idgKMaEl5uLz13LieiYTW5kWkQaGoDRqe8/edit?usp=sharing" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
-                <p style={{paddingRight: '30px'}}>Privacy</p>
+                <p>Privacy</p>
                 </a>
                 <SocialIcon className="socialIcon" url="http://www.twitter.com/catsplatstudios"  style={myStyle}/>
                 <SocialIcon className="socialIcon" url="https://www.facebook.com/catsplatstudios" style={myStyle}/>
                 <SocialIcon className="socialIcon" url="https://www.instagram.com/catsplatstudios/" style={myStyle}/>
             </Col>
-        </Row>
-    </div>)    
+        </Row>)    
 }
 export default Footer;
