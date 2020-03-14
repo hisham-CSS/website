@@ -11,6 +11,7 @@ import Card from 'react-bootstrap/Card';
 import Zoom from 'react-reveal/Zoom';
 import shortid from 'short-id';
 import { SocialIcon } from 'react-social-icons';
+import { FaDiscord } from 'react-icons/fa';
 
 
 function MainPage()
@@ -150,6 +151,10 @@ function MainPage()
     <SocialIcon url="https://www.linkedin.com/company/cat-splat-studios/" bgColor="#000000" fgColor="#FFFFFF" style={socialIconStyle} />
     <SocialIcon url="mailto:info@catsplatstudios.com" bgColor="#000000" fgColor="#FFFFFF" style={socialIconStyle} network="mailto" />
     
+    <p>Chat with us on discord!</p>
+    <a href="https://discord.gg/rT9Y6V5" target="_blank"><FaDiscord style={socialIconStyle}/></a>
+
+    <hr style={{borderTop: '3px solid black', width: '80%'}} />
 
     <a href="https://drive.google.com/drive/folders/1OHfDNc0OVYBOGCAhdl6607Skq8htgnxs?usp=sharing" target="_blank" style={{fontWeight: 'bold', textDecoration: 'none'}}>
     <p>Terms</p>
