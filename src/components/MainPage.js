@@ -5,7 +5,8 @@ import Image from 'react-bootstrap/Image';
 import logo from '../images/CSSLogo.png';
 import Sample from '../images/sample.svg';
 import RRLogo from '../images/RRLogo.png';
-import GooglePlayBadge from '../images/google-play-badge.png'
+import GooglePlayBadge from '../images/google-play-badge.png';
+import AppleStoreBadge from '../images/AppStore.svg';
 import Card from 'react-bootstrap/Card';
 
 import Zoom from 'react-reveal/Zoom';
@@ -87,7 +88,8 @@ function MainPage()
                     <Zoom>
                         <React.Fragment>
                         <Image src={RRLogo} width="400"/>
-                        <p>Rocket Recover - Out Now On Google Play!</p>
+                        <p>Rocket Recover - Out Now On Google Play and iOS!</p>
+                        <Image src={AppleStoreBadge} />
                         <Image src={GooglePlayBadge} />
                         <p>An endless advoidance runner. You can play and customise your experience!
                         Choose from a varity of ships, backgrounds, obstcles and even custom music!
@@ -135,8 +137,17 @@ function MainPage()
         <img src={RRLogo} style={{width: '60%', maxWidth:'600px' }} />
     </div>
 
+    <br></br>
+
+    <a href="https://apps.apple.com/us/app/id1505431817">
+        <img src={AppleStoreBadge} width="200px" />
+    </a>
+
+    <br></br>
+    <br></br>
+
     <a href="https://play.google.com/store/apps/details?id=com.CatSplatStudios.RocketRecover">
-        <img src={GooglePlayBadge} width="200px" />
+        <img src={GooglePlayBadge} width="200px"/>
     </a>
 
 
