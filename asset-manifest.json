@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.c923c6ad.chunk.css",
-    "main.js": "/static/js/main.81163b5b.chunk.js",
-    "main.js.map": "/static/js/main.81163b5b.chunk.js.map",
+    "main.css": "/static/css/main.5d101018.chunk.css",
+    "main.js": "/static/js/main.fe744ef9.chunk.js",
+    "main.js.map": "/static/js/main.fe744ef9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f6ab5ac8.js",
     "runtime-main.js.map": "/static/js/runtime-main.f6ab5ac8.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.a075840b.chunk.js": "/static/js/2.a075840b.chunk.js",
-    "static/js/2.a075840b.chunk.js.map": "/static/js/2.a075840b.chunk.js.map",
+    "static/css/2.ace36aee.chunk.css": "/static/css/2.ace36aee.chunk.css",
+    "static/js/2.f7f05ecb.chunk.js": "/static/js/2.f7f05ecb.chunk.js",
+    "static/js/2.f7f05ecb.chunk.js.map": "/static/js/2.f7f05ecb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.65855e35ef5e1a7a6d9f9fc06f5d0975.js": "/precache-manifest.65855e35ef5e1a7a6d9f9fc06f5d0975.js",
+    "precache-manifest.84c2705a73b0e206546b385bcf163927.js": "/precache-manifest.84c2705a73b0e206546b385bcf163927.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.c923c6ad.chunk.css.map": "/static/css/main.c923c6ad.chunk.css.map",
-    "static/js/2.a075840b.chunk.js.LICENSE.txt": "/static/js/2.a075840b.chunk.js.LICENSE.txt",
+    "static/css/2.ace36aee.chunk.css.map": "/static/css/2.ace36aee.chunk.css.map",
+    "static/css/main.5d101018.chunk.css.map": "/static/css/main.5d101018.chunk.css.map",
+    "static/js/2.f7f05ecb.chunk.js.LICENSE.txt": "/static/js/2.f7f05ecb.chunk.js.LICENSE.txt",
+    "static/media/AppStore.svg": "/static/media/AppStore.2928664f.svg",
     "static/media/CSSLogo.png": "/static/media/CSSLogo.c0a6557a.png",
     "static/media/CSSLogoNav.png": "/static/media/CSSLogoNav.58e2583d.png",
     "static/media/RRLogo.png": "/static/media/RRLogo.80508430.png",
-    "static/media/google-play-badge.png": "/static/media/google-play-badge.db9b21a1.png",
+    "static/media/google-play-badge.png": "/static/media/google-play-badge.fc414982.png",
     "static/media/sample.svg": "/static/media/sample.54b30c79.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f6ab5ac8.js",
-    "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.a075840b.chunk.js",
-    "static/css/main.c923c6ad.chunk.css",
-    "static/js/main.81163b5b.chunk.js"
+    "static/css/2.ace36aee.chunk.css",
+    "static/js/2.f7f05ecb.chunk.js",
+    "static/css/main.5d101018.chunk.css",
+    "static/js/main.fe744ef9.chunk.js"
   ]
 }
