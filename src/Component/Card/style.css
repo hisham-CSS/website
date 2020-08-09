@@ -1,0 +1,92 @@
+.card {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 5%;
+  transition: 0.3s;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.line {
+  border-top: 3px solid black;
+  width: 50%;
+}
+
+.card h3,
+.card h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.card h3 {
+  font-family: Montserrat-Bold;
+}
+
+p {
+  padding: 0 10px;
+}
+
+/* Custom Card Classes added*/
+
+.shifterCard {
+  background-color: rgb(221, 221, 221);
+}
+
+.rocketCard {
+  width: 100%;
+  border-radius: 0;
+  background-color: rgb(242, 242, 242);
+}
+
+.rocketCardMobile {
+  width: 60%;
+  border-radius: 0;
+  background-color: rgb(242, 242, 242);
+}
+
+.rocketDescription {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rocketDescription p {
+  padding: 0 30px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.description {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  font-family: Montserrat-SemiBold;
+}
+
+@media screen and (max-width: 1200px) {
+  .rocketCardMobile {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .rocketCardMobile {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rocketDescription {
+    flex-direction: column;
+    padding: 5px;
+  }
+}
