@@ -15,7 +15,6 @@ import Rocket_Buzzer from "../../Assets/rocket/Rocket_Buzzer.png";
 import Rocket_Cruiser from "../../Assets/rocket/Rocket_Cruiser.png";
 import Apple from "../../Assets/AppleLogo.png";
 import Google from "../../Assets/GoogleLogo.png";
-import ShopItems from "../../Assets/rocket/shopitems.png";
 import RocketScreen from "../../Assets/rocket/rocketScreen.jpg";
 
 import logo from "../../Assets/catsplat/CatSplatLogo_DARK.png";

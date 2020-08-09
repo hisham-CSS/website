@@ -81,7 +81,7 @@
 }
 
 .bannerMobileGoogle {
-  z-index: -2;
+  z-index: 0;
   position: absolute;
   width: 300px;
   bottom: 0;
@@ -89,7 +89,7 @@
 }
 
 .bannerMobileApple {
-  z-index: -2;
+  z-index: 0;
   position: absolute;
   width: 300px;
   bottom: 0;
