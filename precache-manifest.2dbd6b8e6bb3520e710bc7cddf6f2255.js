@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b5977989f722f8d8202c28501e0bf81",
+    "revision": "c450bd4303fabd58fefdcefe0b81d3c9",
     "url": "/index.html"
   },
   {
-    "revision": "72b5f0aefaac59d0d66e",
-    "url": "/static/css/main.86911258.chunk.css"
+    "revision": "aa4c7f9f8f348b66ff02",
+    "url": "/static/css/main.6370c185.chunk.css"
   },
   {
-    "revision": "7ae623cc41bac6ace58e",
-    "url": "/static/js/2.5c177445.chunk.js"
+    "revision": "c10b4f41ccb92a96b5c3",
+    "url": "/static/js/2.ae725162.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.5c177445.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ae725162.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72b5f0aefaac59d0d66e",
-    "url": "/static/js/main.bb537cbc.chunk.js"
+    "revision": "aa4c7f9f8f348b66ff02",
+    "url": "/static/js/main.5bb6efc0.chunk.js"
   },
   {
     "revision": "dec26090cf87837f80e5",
@@ -40,8 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Email_White.42d5e124.png"
   },
   {
+    "revision": "cf845d361d63a07b9a5c3723012f7117",
+    "url": "/static/media/Gameplay.cf845d36.png"
+  },
+  {
     "revision": "76794a7fda20dfa73cb8f9485f63cff9",
     "url": "/static/media/Header2.76794a7f.png"
+  },
+  {
+    "revision": "f744c2763dfefd1e1deae4996d345a05",
+    "url": "/static/media/Invaders.f744c276.png"
   },
   {
     "revision": "8b6b511b81be1fd1deb47fb78d4610bb",
@@ -70,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d807d5aebc9c2f6473da1521c36b1244",
     "url": "/static/media/Planet.d807d5ae.png"
+  },
+  {
+    "revision": "c632adc537327d25ad771a5a79e8d708",
+    "url": "/static/media/Power.c632adc5.png"
+  },
+  {
+    "revision": "472e35fa80c770549d090d23f0c79562",
+    "url": "/static/media/Procedural.472e35fa.png"
   },
   {
     "revision": "cf87a6bb4c9363e53ed7d25fa55ef5e4",
@@ -122,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4a08ded5301ef3ded0c432b83fbb8ece",
     "url": "/static/media/SpaceStation.4a08ded5.png"
+  },
+  {
+    "revision": "0a4a49dca8267e0582ae3d325fadd032",
+    "url": "/static/media/Story.0a4a49dc.png"
   },
   {
     "revision": "084cb7171a660fa9693283a482a79f79",
