@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 
 import Footer from "../../Component/Footer";
-import Card from "../../Component/Card";
+import ShifterCard from "../../Component/ShifterCard";
 
 import Layer1 from "../../Assets/shifter/Shifter.png";
 import laserShip from "../../Assets/shifter/Layer1.png";
@@ -11,6 +11,13 @@ import Layer2 from "../../Assets/shifter/SpaceStation.png";
 import Layer3 from "../../Assets/shifter/Planet.png";
 import Layer4 from "../../Assets/shifter/Layer4.png";
 import Logo from "../../Assets/shifter/SHIFTER_title.png";
+
+import Story from "../../Assets/shifter/Story.png";
+import Gameplay from "../../Assets/shifter/Gameplay.png";
+
+import Power from "../../Assets/shifter/Power.png";
+import Invaders from "../../Assets/shifter/Invaders.png";
+import Procedural from "../../Assets/shifter/Procedural.png";
 
 const Shifter = () => {
   return (
@@ -24,9 +31,8 @@ const Shifter = () => {
       </div>
       <div className="aboutGame">
         <div className="centerGameContaint">
-          <h2>About CODENAME: SHIFTER</h2>
+          <img className="shiftStory" src={Story} alt="story so far" />
           <hr className="titleLine" />
-          <h3 className="shifterSub">The Story So Far</h3>
           <p>
             The Agonians have drained their planet of water and now roam space
             looking for planets rich with it, destroying any intelligent life
@@ -34,8 +40,8 @@ const Shifter = () => {
           </p>
           <p>
             They've set their sights on Earth and pushed the Galactic Alliance
-            to the brink of collapse! Combing human technology with reclaimed
-            alien parts, the Alliance has created a powerful fight craft
+            to the brink of collapse! Combining human technology with reclaimed
+            alien parts, the Alliance has created a powerful fighter craft
             designated Codename: Shifter.
           </p>
           <p>
@@ -43,37 +49,38 @@ const Shifter = () => {
             depends on you!!
           </p>
           <br />
-          <h3 className="shifterSub">Gameplay</h3>
+          <img className="shiftGameplay" src={Gameplay} alt="Gameplay" />
+          <hr className="titleLine" />
           <p>
             Codename: Shifter is a top-down arcade shooter that focuses on
             customization and replay value.
           </p>
           <div className="features">
-            <Card title="Power In Death" addedClasses={["shifterCard"]}>
+            <ShifterCard header={Power}>
               <p>
                 Collect resources from fallen enemies to upgrade the ship, even
                 after you 'die'. Swap weapons and parts for different
                 strategies!
               </p>
-            </Card>
-            <Card title="Procedural Levels" addedClasses={["shifterCard"]}>
-              <p>
-                Random generation of levels and enemy encounters mean the game
-                is different each time, providing lots of replay opportunity.
-              </p>
-            </Card>
-            <Card title="Wicked Invaders" addedClasses={["shifterCard"]}>
+            </ShifterCard>
+            <ShifterCard header={Invaders}>
               <p>
                 Inspired by the many creatures of the oceans, the enemy comes in
                 vast numbers but are backed by ruthless bosses and mini-bosses.
                 Learn their patterns and expose their weaknesses for a path to
                 victory!
               </p>
-            </Card>
+            </ShifterCard>
+            <ShifterCard header={Procedural}>
+              <p>
+                Random generation of levels and enemy encounters mean the game
+                is different each time, providing lots of replay opportunity.
+              </p>
+            </ShifterCard>
           </div>
           <img
             src={laserShip}
-            width={200}
+            width={250}
             style={{ marginBottom: "20px", marginTop: "20px" }}
             alt="Player Ship"
           />

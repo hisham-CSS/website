@@ -257,6 +257,35 @@
   }
 }
 
+@media screen and (max-height: 800px) {
+  .Rocket_Valor {
+    display: none;
+  }
+  .Rocket_Dagger {
+    display: none;
+  }
+
+  .bannerMobileGoogle {
+    display: none;
+  }
+
+  .bannerMobileApple {
+    display: none;
+  }
+
+  .mobileDownloadArea {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobileLogo {
+    width: 220px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .centerRocketGameContaint {
     width: 80%;
@@ -281,6 +310,9 @@
 
   .bannerMobileApple {
     bottom: 30%;
+  }
+  .mobileLogo {
+    width: 175px;
   }
 }
 
@@ -405,5 +437,14 @@
   .bannerMobileApple {
     bottom: 70%;
     width: 100px;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .Rocket_Valor {
+    display: none;
+  }
+  .Rocket_Dagger {
+    display: none;
   }
 }
