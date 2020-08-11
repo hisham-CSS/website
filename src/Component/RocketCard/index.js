@@ -14,7 +14,11 @@ const RocketCard = (props) => {
 
   return (
     <div className={attachedClasses.join(" ")}>
-      <img src={props.header} className={imageClasses.join(" ")} />
+      <img
+        src={props.header}
+        alt="featureImage"
+        className={imageClasses.join(" ")}
+      />
       <div className="rocketDescription">{props.children}</div>
     </div>
   );

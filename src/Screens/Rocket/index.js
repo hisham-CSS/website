@@ -23,7 +23,6 @@ import Header1 from "../../Assets/rocket/Header1.png";
 import Header2 from "../../Assets/rocket/Header2.png";
 import Header3 from "../../Assets/rocket/Header3.png";
 
-import logo from "../../Assets/catsplat/CatSplatLogo_DARK.png";
 const Rocket = () => {
   return (
     <div className="rocketBox">
