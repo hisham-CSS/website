@@ -26,46 +26,48 @@ const Shifter = () => {
         <div className="centerGameContaint">
           <h2>About CODENAME: SHIFTER</h2>
           <hr className="titleLine" />
+          <h3 className="shifterSub">The Story So Far</h3>
           <p>
-            In the year 21XX our galaxy is invaded by a powerful species, the
-            Agonians. Having drained their own world of the most valuable
-            resource, water, they now seek out planets rich with it, and destroy
-            all intelligent life in the process.
+            The Agonians have drained their planet of water and now roam space
+            looking for planets rich with it, destroying any intelligent life
+            present to use the resources as they see fit.
           </p>
           <p>
-            The Galactic Alliance has been pushed to the brink. The last hope
-            lies with a secret project that has combined all the Alliance
-            ingenuity and technology with a power source from one of the
-            defeated alien spacecraft. They’ve designated this project the
-            Codename: Shifter.
+            They've set their sights on Earth and pushed the Galactic Alliance
+            to the brink of collapse! Combing human technology with reclaimed
+            alien parts, the Alliance has created a powerful fight craft
+            designated Codename: Shifter.
           </p>
           <p>
-            Codename: Shifter is a Top-Down Arcade Shooter which blends various
-            gameplay themes together to create an enjoyable and replayable
-            experience. Players will have the opportunity to experience the game
-            in various way, adapting to the gameplay and choosing their path to
-            victory!
+            Take control of Shifter and gun down the invaders! The Alliance
+            depends on you!!
+          </p>
+          <br />
+          <h3 className="shifterSub">Gameplay</h3>
+          <p>
+            Codename: Shifter is a top-down arcade shooter that focuses on
+            customization and replay value.
           </p>
           <div className="features">
-            <Card title="Rougelike Death System" addedClasses={["shifterCard"]}>
+            <Card title="Power In Death" addedClasses={["shifterCard"]}>
               <p>
-                Collect data caches to keep after death to permantly upgrade
-                your ship on your next run.
+                Collect resources from fallen enemies to upgrade the ship, even
+                after you 'die'. Swap weapons and parts for different
+                strategies!
               </p>
             </Card>
-            <Card title="Procedural Encounters" addedClasses={["shifterCard"]}>
+            <Card title="Procedural Levels" addedClasses={["shifterCard"]}>
               <p>
-                Every encounter in each level will be generated for a different
-                combat experience.
+                Random generation of levels and enemy encounters mean the game
+                is different each time, providing lots of replay opportunity.
               </p>
             </Card>
-            <Card
-              title="Player Ship Customization"
-              addedClasses={["shifterCard"]}
-            >
+            <Card title="Wicked Invaders" addedClasses={["shifterCard"]}>
               <p>
-                Choose from various weapons, upgrades, and parts to personalize
-                your ship in battle.
+                Inspired by the many creatures of the oceans, the enemy comes in
+                vast numbers but are backed by ruthless bosses and mini-bosses.
+                Learn their patterns and expose their weaknesses for a path to
+                victory!
               </p>
             </Card>
           </div>

@@ -47,9 +47,21 @@ body {
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 1800px) {
+  .roster {
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .roster {
-    width: 80%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .roster {
+    width: 100%;
   }
 }
 
