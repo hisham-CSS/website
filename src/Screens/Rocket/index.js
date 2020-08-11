@@ -3,7 +3,7 @@ import React from "react";
 import "./style.css";
 
 import Footer from "../../Component/Footer";
-import Card from "../../Component/Card";
+import RocketCard from "../../Component/RocketCard";
 
 import Banner from "../../Assets/rocket/RR_title.png";
 import Asteroid from "../../Assets/rocket/Asteroid.png";
@@ -15,7 +15,13 @@ import Rocket_Buzzer from "../../Assets/rocket/Rocket_Buzzer.png";
 import Rocket_Cruiser from "../../Assets/rocket/Rocket_Cruiser.png";
 import Apple from "../../Assets/AppleLogo.png";
 import Google from "../../Assets/GoogleLogo.png";
-import RocketScreen from "../../Assets/rocket/rocketScreen.jpg";
+
+import RocketScreen1 from "../../Assets/rocket/RR_SpaceFun.png";
+import RocketScreen2 from "../../Assets/rocket/RR_Customize.png";
+
+import Header1 from "../../Assets/rocket/Header1.png";
+import Header2 from "../../Assets/rocket/Header2.png";
+import Header3 from "../../Assets/rocket/Header3.png";
 
 import logo from "../../Assets/catsplat/CatSplatLogo_DARK.png";
 const Rocket = () => {
@@ -101,11 +107,7 @@ const Rocket = () => {
             />
           </div>
           <div className="section">
-            <Card
-              title="Endless Space Fun!"
-              addedClasses={["rocketCard"]}
-              descriptionClass="rocketDescription"
-            >
+            <RocketCard header={Header1} headerClasses={["header1"]}>
               <p>
                 Avoid obstacles while collecting fuel and power ups to launch
                 your Rocket the farthest and top the Leaderboards! Don't panic
@@ -113,27 +115,22 @@ const Rocket = () => {
               </p>
               <div>
                 <img
-                  src={RocketScreen}
-                  width={300}
-                  id="rocketIamge"
+                  src={RocketScreen1}
+                  width={250}
                   alt="rocket"
-                  className="featureImage"
+                  className="featureImage1"
                 />
               </div>
-            </Card>
+            </RocketCard>
           </div>
           <div className="section">
-            <Card
-              title="Customize Your Experience"
-              addedClasses={["rocketCard"]}
-              descriptionClass="rocketDescription"
-            >
+            <RocketCard header={Header2} headerClasses={["header2"]}>
               <div>
                 <img
-                  src={logo}
-                  width={300}
+                  src={RocketScreen2}
+                  width={250}
                   alt="rocket"
-                  className="featureImage"
+                  className="featureImage2"
                 />
               </div>
               <p>
@@ -141,14 +138,13 @@ const Rocket = () => {
                 or obstacles! Totally change your game experience to fit your
                 mood.
               </p>
-            </Card>
+            </RocketCard>
           </div>
           <div className="section">
-            <Card
-              title="DOWNLOAD NOW"
-              subtitle="Available on iOS and Google Play"
+            <RocketCard
+              header={Header3}
               addedClasses={["rocketCardMobile"]}
-              descriptionClass="rocketDescription"
+              headerClasses={["header3"]}
             >
               <img
                 src={Apple}
@@ -174,7 +170,7 @@ const Rocket = () => {
                   )
                 }
               />
-            </Card>
+            </RocketCard>
           </div>
         </div>
       </div>

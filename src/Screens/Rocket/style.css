@@ -351,9 +351,13 @@
     overflow: hidden;
     margin-top: -20vw;
   }
-  .featureImage {
-    width: 200px;
+
+  .featureImage1 {
   }
+
+  .featureImage2 {
+  }
+
   .Asteroid1 {
     top: 22%;
     position: absolute;
