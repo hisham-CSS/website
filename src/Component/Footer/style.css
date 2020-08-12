@@ -84,6 +84,7 @@
     padding: 0.5rem 0;
     flex-direction: column-reverse;
     align-items: center;
+    height: 700px;
   }
   .footTitle {
     margin-top: 25px;
