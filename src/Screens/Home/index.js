@@ -32,7 +32,7 @@ const Home = (props) => {
           />
           <h3>Codename: Shifter</h3>
         </div>
-        <div className="circles">
+        {/* <div className="circles">
           <img
             alt="Rocket Recover"
             src={RRIcon}
@@ -41,7 +41,7 @@ const Home = (props) => {
             }}
           />
           <h3>Rocket Recover</h3>
-        </div>
+        </div> */}
       </div>
       <Link to={process.env.PUBLIC_URL + "/about"} className="leanLink">
         <h4>MEET THE TEAM</h4>

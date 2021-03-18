@@ -25,12 +25,12 @@ const SideDrawer = (props) => {
         >
           <h5>CODENAME: SHIFTER</h5>
         </Link>
-        <Link
+        {/* <Link
           to={process.env.PUBLIC_URL + "/rocket"}
           className="headerlinkDrawer"
         >
           <h5>ROCKET RECOVER</h5>
-        </Link>
+        </Link> */}
         <Link
           to={process.env.PUBLIC_URL + "/about"}
           className="headerlinkDrawer"
