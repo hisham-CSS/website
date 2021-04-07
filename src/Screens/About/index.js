@@ -15,10 +15,7 @@ const About = () => {
       <h3 className="aboutHead">OUR TEAM</h3>
       <p className="aboutPara"></p>
       <div className="roster">
-        <Card
-          title="Hisham Ata"
-          subtitle="Founder - Business Operations Manager"
-        >
+        <Card title="Hisham Ata" subtitle="Founder - Technical Director">
           <p>
             Hisham founded Cat Splat Studios in 2015. His background is in
             programming, IT and project management. In his free time, he loves
@@ -32,15 +29,6 @@ const About = () => {
             management role at Cat Splat. He's loved video games since he could
             hold a controller. His passion for games and the systems behind them
             makes him the de facto Dungeon Master of the team, as well.
-          </p>
-        </Card>
-        <Card title="Matthew Douglas" subtitle="Technical Director">
-          <p>
-            Matthew is a software developer who excels in game applications. His
-            various skills in web and game development helps deliver fun
-            experiences to the user. His passion started with RPG and RTS games
-            on the PC which then transferred to many of the classic FPS games on
-            the console.
           </p>
         </Card>
         <Card title="Vader" subtitle="Team Mascot">

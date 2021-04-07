@@ -35,7 +35,7 @@ const Footer = () => {
         >
           Terms and Conditions
         </p>
-        <p>&#169; 2014-2020 Cat Splat Studios Inc</p>
+        <p>&#169; 2014-2021 Cat Splat Studios Inc</p>
       </div>
       <div className="socialArea">
         <h3 className="footTitle footFollow">Find us on</h3>
